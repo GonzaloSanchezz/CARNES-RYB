@@ -630,7 +630,15 @@ h3{
   .tituloSectionIndex h3{
     font-size: 30px;
   }
+  .tituloSectionIndex{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .imgCarne{
     height: 300px;
   }
+  section{
+    margin-bottom: 30px;
+  }
+  
 }
