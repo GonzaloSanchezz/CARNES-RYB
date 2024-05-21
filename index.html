@@ -13,82 +13,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header data-aos="fade-down" class="headerIndex">
-        <div class="logoIndex">
-            <img src="./images/logo.png" alt="" class="imgLogoIndex">
-            <a href="./index.html">CARNES R&B</a>
-        </div>
-        <div class="nav">
-            <nav class="navIndex">
-                <ul class="ulIndex">
-                  <label class="popup">
-                    <input type="checkbox">
-                    <div class="burger" tabindex="0">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <nav class="popup-window">
-                      <legend>Actions</legend>
-                      <ul>
-                        <li>
-                          <button>
-                            <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                              <circle r="4" cy="7" cx="9"></circle>
-                              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                            <span>Colloborators</span>
-                          </button>
-                        </li>
-                        <li>
-                          <button>
-                            <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                            </svg>
-                            <span>Magic Link</span>
-                          </button>
-                        </li>
-                        <hr>
-                        <li>
-                          <button>
-                            <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                              <rect ry="2" rx="2" height="13" width="13" y="9" x="9"></rect>
-                              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
-                            </svg>
-                            <span>Clone</span>
-                          </button>
-                        </li>
-                        <li>
-                          <button>
-                            <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                              <polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon>
-                            </svg>
-                            <span>Edit</span>
-                          </button>
-                        </li>
-                        <hr>
-                        <li>
-                          <button>
-                            <svg stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor" fill="none" viewBox="0 0 24 24" height="14" width="14" xmlns="http://www.w3.org/2000/svg">
-                              <line y2="18" x2="6" y1="6" x1="18"></line>
-                              <line y2="18" x2="18" y1="6" x1="6"></line>
-                            </svg>
-                            <span>Delete</span>
-                          </button>
-                        </li>
-                      </ul>
-                    </nav>
-                  </label>
-                    <li class="liIndex"><a href="./pages/nuestrosProductos.html">NUESTROS PRODUCTOS</a></li>
-                    <li class="liIndex"><a href="./pages/dondeEstamos.html">¿DÓNDE ESTAMOS?</a></li>
-                    <li class="liIndex"><a href="./pages/contacto.html">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header data-aos="fade-down" class="headerIndex">
+      <div class="logoIndex">
+          <img src="./images/logo.png" alt="" class="imgLogoIndex">
+          <a href="./index.html">CARNES R&B</a>
+      </div>
+      <div class="nav">
+        <div class="navIndex">
+          <div class="paste-button">
+            <button class="button"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg></button>
+            <div class="dropdown-content">
+              <a id="top" class="btn-menu" href="./pages/nuestrosProductos.html">NUESTROS PRODUCTOS</a>
+              <a id="middle" class="btn-menu" href="./pages/dondeEstamos.html">¿DÓNDE ESTAMOS?</a>
+              <a id="bottom" class="btn-menu" href="./pages/contacto.html">CONTACTO</a>
+            </div>
+          </div>              
+          </nav> 
+            <ul class="ulIndex" id="show">
+                <li class="liIndex"><a href="./pages/nuestrosProductos.html">NUESTROS PRODUCTOS</a></li>
+                <li class="liIndex"><a href="./pages/dondeEstamos.html">¿DÓNDE ESTAMOS?</a></li>
+                <li class="liIndex"><a href="./pages/contacto.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>  
+  </header>
     <section data-aos="zoom-in" class="section1Index">
         <div class="tituloSectionIndex">
             <h1 class="titulo">Descubre la frescura y calidad en cada corte.</h1>
