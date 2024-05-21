@@ -491,7 +491,7 @@ h3{
   .sectionProductos{
     width: 100%;
     margin-left: 0px;
-    height: 500px;
+    height: 300px;
   }
   .sectionText{
     margin-left: 10px;
@@ -510,6 +510,9 @@ h3{
   }
   .imgHidden{
     display: block;
+  }
+  .subHidden{
+    display: none;
   }
   .imgProd1{
     height: 400px;
