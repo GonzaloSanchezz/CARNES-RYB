@@ -426,6 +426,7 @@ h3{
     align-items: center;
     height: 600px;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 .ubicacion{
     border: rgb(123, 13, 30) solid 10px;
@@ -604,6 +605,9 @@ h3{
   .tituloSectionIndex{
     margin-top: 10px;
   }
+  .imgMapa{
+
+  }
 }
 @media (max-width: 790px){
 
@@ -662,6 +666,12 @@ h3{
   }
   .img2{
     height: 150px;
+  }
+  .imgMapa{
+    height: 270px;
+  }
+  .sectionDondeEstamos{
+    height: 500px;
   }
 }
 @media (max-width: 790px){
